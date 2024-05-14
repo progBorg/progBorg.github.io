@@ -1,0 +1,26 @@
+/* Modified from https://github.com/alexsobolenko/flag-icons/ */
+@charset "UTF-8";
+.flag-icon-background, .flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333em;
+  line-height: 1em; }
+  .flag-icon:before {
+    content: " "; }
+  .flag-icon.flag-icon-squared {
+    width: 1em; }
+
+.flag-icon-gbr {
+  background-image: url(../img/gbr.svg); }
+  .flag-icon-gbr.flag-icon-squared {
+    background-image: url(../img/gbr.svg); }
+
+.flag-icon-nld {
+  background-image: url(../img/nld.svg); }
+  .flag-icon-nld.flag-icon-squared {
+    background-image: url(../img/nld.svg); }
